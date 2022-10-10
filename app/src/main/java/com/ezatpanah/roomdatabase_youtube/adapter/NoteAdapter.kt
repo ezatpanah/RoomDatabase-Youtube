@@ -26,6 +26,7 @@ class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>(){
 
     override fun onBindViewHolder(holder: NoteAdapter.ViewHolder, position: Int) {
         holder.bind(differ.currentList[position])
+        holder.setIsRecyclable(false)
     }
 
     override fun getItemCount(): Int {
