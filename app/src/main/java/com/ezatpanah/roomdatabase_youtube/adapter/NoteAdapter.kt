@@ -14,7 +14,7 @@ import com.ezatpanah.roomdatabase_youtube.ui.UpdateNoteActivity
 import com.ezatpanah.roomdatabase_youtube.utils.Constants.BUNDLE_NOTE_ID
 
 class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>(){
-    private lateinit var binding:ItemNoteBinding
+    private lateinit var binding: ItemNoteBinding
     private lateinit var context: Context
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NoteAdapter.ViewHolder {

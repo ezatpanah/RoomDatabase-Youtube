@@ -25,7 +25,6 @@ class UpdateNoteActivity : AppCompatActivity() {
     private var defaultTitle = ""
     private var defaultDesc = ""
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityUpdateNoteBinding.inflate(layoutInflater)
