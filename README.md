@@ -1,4 +1,4 @@
-# RoomDatabase-Youtube
+## RoomDatabase-Youtube
 <img alt="Ezatpanah RoomDatabase-Youtube" src="https://emojipedia-us.s3.amazonaws.com/content/2020/04/05/yt.png" width="3%"></a>
 
 YouTube Video :
@@ -16,16 +16,15 @@ Part 3:
 <a href="" target="_blank"><img alt="Ezatpanah RoomDatabase-Youtube" src="database3.jpg" width="60%"></a>
 <br>
 
-Medium's Article :
-<br>
-https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-1-91831b69d06b
-<br>
-https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-2-f52d16db8f5e
-<br>
-https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-3-ddc6c25eab8f
+### Medium Articles 
 
-<br>
-✨ Join Medium to read thousands of valuable stories ✨
-<br>
-https://medium.com/@ezatpanah/membership
+- [Link1](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-1-91831b69d06b)
+
+- [Link2](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-2-f52d16db8f5e)
+
+- [Link3](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-3-ddc6c25eab8f)
+
+- Join my [Medium](https://medium.com/@ezatpanah/membership) to read thousands of valuable stories ✨
+
+
 

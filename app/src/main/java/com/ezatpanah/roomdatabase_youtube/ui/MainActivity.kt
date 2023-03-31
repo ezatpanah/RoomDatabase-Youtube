@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.room.Room
-import com.ezatpanah.roomdatabase_youtube.R
 import com.ezatpanah.roomdatabase_youtube.adapter.NoteAdapter
 import com.ezatpanah.roomdatabase_youtube.databinding.ActivityMainBinding
 import com.ezatpanah.roomdatabase_youtube.db.NoteDatabase
@@ -15,6 +14,8 @@ import com.ezatpanah.roomdatabase_youtube.utils.Constants.NOTE_DATABASE
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityMainBinding
+
+    // creating object of our database
     private val noteDB : NoteDatabase by lazy {
         Room.databaseBuilder(this,NoteDatabase::class.java,NOTE_DATABASE)
             .allowMainThreadQueries()
@@ -27,20 +28,22 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         binding.btnAddNote.setOnClickListener {
             startActivity(Intent(this,AddNoteActivity::class.java))
         }
 
     }
 
+    // In future, Use LiveData in place of this function
     override fun onResume() {
         super.onResume()
         checkItem()
     }
 
-
     private fun checkItem(){
         binding.apply {
+            // if the database is not empty then show the list of data
             if(noteDB.doa().getAllNotes().isNotEmpty()){
                 rvNoteList.visibility= View.VISIBLE
                 tvEmptyText.visibility=View.GONE

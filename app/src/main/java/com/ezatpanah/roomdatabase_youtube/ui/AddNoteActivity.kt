@@ -13,6 +13,8 @@ import com.google.android.material.snackbar.Snackbar
 class AddNoteActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityAddNoteBinding
+
+    // make an object of database to access the methods
     private val noteDB : NoteDatabase by lazy {
         Room.databaseBuilder(this,NoteDatabase::class.java,NOTE_DATABASE)
             .allowMainThreadQueries()
@@ -30,9 +32,12 @@ class AddNoteActivity : AppCompatActivity() {
             btnSave.setOnClickListener {
                 val title = edtTitle.text.toString()
                 val desc = edtDesc.text.toString()
+
+                /* if title and description of a note are not empty, then data can be inserted and
+                note can be saved in the database */
                 if (title.isNotEmpty() || desc.isNotEmpty()){
                     noteEntity= NoteEntity(0,title,desc)
-                    noteDB.doa().inserNote(noteEntity)
+                    noteDB.doa().insertNote(noteEntity)
                     finish()
                 }
                 else{
