@@ -1,24 +1,15 @@
-## RoomDatabase-Youtube
-<img alt="Ezatpanah RoomDatabase-Youtube" src="https://emojipedia-us.s3.amazonaws.com/content/2020/04/05/yt.png" width="3%"></a>
+## RoomDatabase Tutorial 
 
-YouTube Video :
-<br>  
-Part 1:
-<br>  
-<a href="https://www.youtube.com/watch?v=O_m0VAX4Cr8&t" target="_blank"><img alt="Ezatpanah RoomDatabase-Youtube" src="db1.jpg" width="60%"></a>
-<br>
-Part 2:
-<br>  
-<a href="https://youtu.be/br38zPuBPfI" target="_blank"><img alt="Ezatpanah RoomDatabase-Youtube" src="database2.jpg" width="60%"></a>
-<br>
-Part 3:
-<br>  
-<a href="" target="_blank"><img alt="Ezatpanah RoomDatabase-Youtube" src="database3.jpg" width="60%"></a>
+||||
+|--|--|--|
+|**Part1 Video**|**Part2 Video**|**Part3 Video**|
+|<a href="https://www.youtube.com/watch?v=O_m0VAX4Cr8&t" target="_blank"><img width="200" alt="Ezatpanah RoomDatabase-Youtube" src="db1.jpg"></a>|<a href="https://youtu.be/br38zPuBPfI" target="_blank"><img width="200" alt="Ezatpanah RoomDatabase-Youtube" src="database2.jpg"></a>|<a href="" target="_blank"><img width="200" alt="Ezatpanah RoomDatabase-Youtube" src="database3.jpg"></a>|
+
 <br>
 
 ### Medium Articles 
 
-- [Link1](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-1-91831b69d06b)
+- [Link1](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-1-91831b69d06b) 
 
 - [Link2](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-2-f52d16db8f5e)
 
@@ -27,4 +18,11 @@ Part 3:
 - Join my [Medium](https://medium.com/@ezatpanah/membership) to read thousands of valuable stories ✨
 
 
+## Scope of Improvements
 
+- Instead of creating multiple activities, try using Fragments.
+- Use MVVM/MVI Architecture for this project.
+- Use LiveData.
+- Add a Share Option to share the notes.
+- Add a Search option to search the existing notes.
+- UI Improvements.
