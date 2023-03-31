@@ -7,7 +7,12 @@
 
 <br>
 
-### Medium Articles 
+## Flow of RoomDB
+<img height="400" src="https://user-images.githubusercontent.com/94545831/229098984-7acc800d-014e-4507-9464-8d74adb129b2.jpg" />
+
+<br>
+
+## Medium Articles 
 
 - [Link1](https://medium.com/@ezatpanah/room-database-in-kotlin-beginner-in-depth-guide-1-91831b69d06b) 
 
