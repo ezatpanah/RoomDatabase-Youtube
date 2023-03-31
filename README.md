@@ -31,3 +31,5 @@
 - Add a Share Option to share the notes.
 - Add a Search option to search the existing notes.
 - UI Improvements.
+
+- View this [Repo](https://github.com/ezatpanah/Flow-Database-Youtube) for the upgraded changes in this project.
