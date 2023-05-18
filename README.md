@@ -1,7 +1,6 @@
 ## RoomDatabase Tutorial 
 
 ||||
-|--|--|--|
 |**Part1 Video**|**Part2 Video**|**Part3 Video**|
 |<a href="https://www.youtube.com/watch?v=O_m0VAX4Cr8&t" target="_blank"><img width="200" alt="Ezatpanah RoomDatabase-Youtube" src="db1.jpg"></a>|<a href="https://youtu.be/br38zPuBPfI" target="_blank"><img width="200" alt="Ezatpanah RoomDatabase-Youtube" src="database2.jpg"></a>|<a href="" target="_blank"><img width="200" alt="Ezatpanah RoomDatabase-Youtube" src="database3.jpg"></a>|
 
